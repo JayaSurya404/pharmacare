@@ -1,0 +1,33 @@
+-- 1. INSERT sample records
+INSERT INTO business_process (id, name, level)
+VALUES (1, 'Order Management', 'High');
+
+INSERT INTO plan (id, type, description, business_process_id)
+VALUES (1, 'Disaster Recovery', 'Backup plan for orders', 1);
+
+INSERT INTO recovery (id, location, name, plan_id)
+VALUES (1, 'New York', 'NY Recovery Site', 1);
+
+INSERT INTO incident (id, type, date, business_process_id)
+VALUES (1, 'Server Crash', '2025-09-22', 1);
+
+
+-- 2. SELECT to view inserted data
+SELECT * FROM business_process;
+SELECT * FROM plan;
+SELECT * FROM recovery;
+SELECT * FROM incident;
+
+
+-- 3. UPDATE a record
+UPDATE plan
+SET description = 'Updated backup plan'
+WHERE id = 1;
+
+-- 4. DELETE a record
+DELETE FROM incident
+WHERE id = 1;
+
+-- 5. SELECT again to observe changes
+SELECT * FROM plan;
+SELECT * FROM incident;

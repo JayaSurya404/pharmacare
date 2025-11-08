@@ -1,0 +1,44 @@
+[
+  {
+    "_id": { "$oid": "68bc69977ee1a1e15dfe0eb2" },
+    "userId": { "$oid": "68bc197d9e0d0113adb8180f" },
+    "name": "Kaviyarasan",
+    "email": "jayasurya@gmail.com",
+    "userType: customer", 
+    "phone": "+91-965533980",
+    "address": "123 Green Street, Chennai, India",
+    "dateOfBirth": "2006-11-27",
+    "gender": "Male",
+    "bloodGroup": "O+",
+    "allergies": "Peanuts",
+    "chronicDiseases": "Diabetes",
+    "memberSince": { "$date": "2023-01-15T00:00:00.000Z" },
+    "profilePhoto": "/customerprofilephoto.jpg",
+    "prescription": "/prescription.png",
+    "medicines": [
+      {
+        "name": "Vitamin D",
+        "category": "Supplement",
+        "dosage": "1 tablet daily",
+        "nextRefillDate": "2025-09-20",
+        "status": "Active"
+      },
+      {
+        "name": "Metformin",
+        "category": "Diabetes",
+        "dosage": "500mg twice daily",
+        "nextRefillDate": "2025-09-15",
+        "status": "Refill Soon"
+      }
+    ],
+    "emergencyContact": {
+      "name": "Suresh Kumar",
+      "relation": "Brother",
+      "phone": "+91-9123456789"
+    },
+    "insurance": {
+      "provider": "HealthCare Plus",
+      "policyNumber": "HCP123456789"
+    }
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "64f7a1b8e1f0a4c1d23a0011",
+    "name": "Paracetamol 500mg",
+    "stock": 120,
+    "price": 1.25,
+    "expiryDate": "2025-12-31",
+    "status": "available",
+    "image": "https://example.com/images/paracetamol.png"
+  },
+  {
+    "_id": "64f7a1b8e1f0a4c1d23a0012",
+    "name": "Ibuprofen 200mg",
+    "stock": 50,
+    "price": 2.5,
+    "expiryDate": "2024-11-15",
+    "status": "available",
+    "image": "https://example.com/images/ibuprofen.png"
+  },
+  {
+    "_id": "64f7a1b8e1f0a4c1d23a0013",
+    "name": "Amoxicillin 250mg",
+    "stock": 0,
+    "price": 3.0,
+    "expiryDate": "2024-05-01",
+    "status": "out of stock",
+    "image": "https://example.com/images/amoxicillin.png"
+  },
+  {
+    "_id": "64f7a1b8e1f0a4c1d23a0014",
+    "name": "Cetirizine 10mg",
+    "stock": 80,
+    "price": 1.0,
+    "expiryDate": "2025-08-20",
+    "status": "available",
+    "image": "https://example.com/images/cetirizine.png"
+  },
+  {
+    "_id": "64f7a1b8e1f0a4c1d23a0015",
+    "name": "Vitamin C 500mg",
+    "stock": 200,
+    "price": 0.75,
+    "expiryDate": "2026-01-01",
+    "status": "available",
+    "image": "https://example.com/images/vitamin_c.png"
+  }
+]

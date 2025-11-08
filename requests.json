@@ -1,0 +1,14 @@
+[
+  {
+    "pharmacyId": { "$oid": "68bc6a1e7ee1a1e15dfe0eb4" },
+    "customerName": "Hariharan",
+    "medicineName": "Paracetamol 500mg",
+    "time": "Today, 11:30 AM"
+  },
+  {
+    "pharmacyId": { "$oid": "68bc6a1e7ee1a1e15dfe0eb4" },
+    "customerName": "Madhusuthanan",
+    "medicineName": "Ibuprofen 200mg",
+    "time": "Yesterday, 3:15 PM"
+  }
+]

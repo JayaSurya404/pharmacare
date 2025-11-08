@@ -1,0 +1,16 @@
+{
+  "pharmacyName": "Madhu's Pharmacy",
+  "storeName": "Kangeyam medicals",
+  "email": "princeofpersia@gmail.com",
+  "shopAddress": "123, MG Road, Coimbatore, India",
+  "shopPhone": "+91-6383671241",
+  "profilePhoto": "/pharmacyprofilephoto.png",
+  "shopPhoto": "/pharmacyshopphoto.png",
+  "medicines": [
+    {
+      "name": "Paracetamol",
+      "price": 50,
+      "stock": 100
+    }
+  ]
+}
